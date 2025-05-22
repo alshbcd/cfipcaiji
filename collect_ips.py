@@ -32,7 +32,7 @@ with open('ip.txt', 'w') as file:
         # elif url == 'https://ip.164746.xyz':
         if url == 'https://www.wetest.vip/page/cloudflare/address_v4.html':
             elements = soup.find_all('tr')
-        else url == 'https://ip.164746.xyz':
+        else if url == 'https://ip.164746.xyz':
             elements = soup.find_all('tr')
         else:
             elements = soup.find_all('li')

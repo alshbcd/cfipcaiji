@@ -30,7 +30,7 @@ with open('ip.txt', 'w') as file:
         # if url == 'https://monitor.gacjie.cn/page/cloudflare/ipv4.html':
             # elements = soup.find_all('tr')
         if url == 'https://cf.090227.xyz/':
-            elements = soup.find_all('tr')
+            elements = soup.find_all('td')
         else url == 'https://ip.164746.xyz':
             elements = soup.find_all('tr')
         else:

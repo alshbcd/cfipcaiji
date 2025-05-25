@@ -6,7 +6,7 @@ import os
 # 目标URL列表
 urls = [
         'https://api.uouin.com/cloudflare.html', 
-        # 'https://ip.164746.xyz/ipTop.html'
+        'https://www.wetest.vip/page/cloudflare/address_v4.html',
         'https://ip.164746.xyz'
         ]
 
@@ -29,7 +29,9 @@ with open('ip.txt', 'w') as file:
         # 根据网站的不同结构找到包含IP地址的元素
         if url == 'https://api.uouin.com/cloudflare.html':
             elements = soup.find_all('tr')
-        else url == 'https://ip.164746.xyz':
+        elif url == 'https://www.wetest.vip/page/cloudflare/address_v4.html':
+            elements = soup.find_all('tr')
+        elif url == 'https://ip.164746.xyz':
             elements = soup.find_all('tr')
         # if url == 'https://ip.164746.xyz/ipTop.html':
             # elements = soup.find_all('tr')

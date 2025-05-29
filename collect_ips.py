@@ -6,9 +6,10 @@ import os
 # 目标URL列表
 urls = [
         # 'https://api.uouin.com/cloudflare.html', 
-        'https://www.wetest.vip/page/cloudflare/address_v4.html',
+        # 'https://www.wetest.vip/page/cloudflare/address_v4.html',
         # 'https://cf.090227.xyz',
         # 'https://stock.hostmonit.com/CloudFlareYes',
+        'https://ipdb.030101.xyz/bestcfv4/',
         'https://ip.164746.xyz'
         ]
 
@@ -38,6 +39,8 @@ with open('ip.txt', 'w') as file:
         elif url == 'https://stock.hostmonit.com/CloudFlareYes':
             elements = soup.find_all('tr')
         elif url == 'https://ip.164746.xyz':
+            elements = soup.find_all('tr')
+        elif url == 'https://ipdb.030101.xyz/bestcfv4/':
             elements = soup.find_all('tr')
         # if url == 'https://ip.164746.xyz/ipTop.html':
             # elements = soup.find_all('tr')

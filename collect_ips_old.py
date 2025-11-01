@@ -6,10 +6,10 @@ import os
 # 目标URL列表
 urls = [
         # 'https://api.uouin.com/cloudflare.html', 
-        # 'https://www.wetest.vip/page/cloudflare/address_v4.html',
+        'https://www.wetest.vip/page/cloudflare/address_v4.html'
         # 'https://cf.090227.xyz',
         # 'https://stock.hostmonit.com/CloudFlareYes',
-        'https://ipdb.030101.xyz/bestcfv4/'
+        # 'https://ipdb.030101.xyz/bestcfv4/'
         # 'https://ip.164746.xyz'
         ]
 
